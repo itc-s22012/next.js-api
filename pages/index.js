@@ -19,6 +19,7 @@ export default function Home() {
   return (
     <div>
       <h2>Please enter the city name in the search field</h2>
+      <h2>都市名を入力して[天気を取得]を押してください</h2>
       <input
         type="text"
         value={city}
